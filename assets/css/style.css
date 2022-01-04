@@ -3,11 +3,62 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body {
+    color: 20px 35px;
+    background-color: #39a6b2;
+  }
 
   section {
     padding: 60px;
+    background-color: white;
 }
+
+/* REACH OUT STYLES START */
+
+  .contact {
+    text-align: center;
+    background: #024e76;
+  }
+
+  .contact h2 {
+    color: #fce138;
+  }
+
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+
+  .contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #fce138;
+  }
+
+  /* REACH OUT STYLES END */
+
   .section-title {
+    border-color: #fce138;
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
@@ -102,10 +153,6 @@
     text-align: center;
 }
 
-.intro h2 {
-
-}
-
 .intro p {
     margin: 0 auto;
     line-height: 1.7;
@@ -169,7 +216,6 @@ body {
   }
   
   header nav ul li {
-      display: inline;
       float: right;
   }
 
@@ -177,7 +223,6 @@ body {
       margin: 0 30px;
       font-weight: lighter;
       font-size: 20px;
-      display: inline;
   }
 
   .trainers {
@@ -224,23 +269,22 @@ body {
       float: left;
   }
 
-  footer nav header h1{
-      background: #fce138;
-      width: 100%;
-      padding: 40px 35px;
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
   }
 
-  footer nav header{
-      display: inline;
-      color: #024e76;
-      font-size: 30px;
-      margin: 0;
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
   }
 
-  footer div{
-      padding: 30px;
-      clear: both;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  footer div {
+      float: right;
+      line-height: 1.5;
       text-align: right;
   }
 
