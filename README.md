@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://github.com/digitald00m/run-buddy.git
+https://digitald00m.github.io/run-buddy/
 
 ## Contribution
 Made with Life by digitald00m
